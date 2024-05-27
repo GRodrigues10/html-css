@@ -1,0 +1,44 @@
+body{
+    background-image: url("imagem/jogo2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+main{
+    width: 300px;
+    height:600px;
+    background-color: white;
+    padding: 10%;
+    margin: auto;
+    background-image: linear-gradient(to right, red, white);
+    border-radius: 5%;
+}
+h2{
+    text-decoration: underline;
+}
+.especial{
+    color: yellow;
+    background-color: black;
+}
+
+a:active{
+    color: blue;
+}
+a:hover{
+    color:red
+}
+.criador{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px; 
+    background-color: yellow;
+}
+.posicao{
+    position: absolute;
+    top: 10px;
+}

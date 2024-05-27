@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: red;
+        }
+        header{
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+            border-radius: 1px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        article{
+            background-color: salmon;
+        }
+        article > aside{
+            background-color: blueviolet;
+        }
+        nav{
+        background-color: coral;
+        padding: 3px;
+      
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.521);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        h1{
+            text-align: 1px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnoloogia</p>
+        </section>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti exercitationem animi laborum nobis architecto, veritatis natus tenetur, quis fugit cum, tempora facere nemo. Dicta ex obcaecati nisi molestiae ipsam saepe.</p>
+            <aside>
+                <p>Artigo escrito por Gabriel</p>
+        </article>
+        <article>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Sei lá</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

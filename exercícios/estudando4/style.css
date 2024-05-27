@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+body{
+   background-image: url('imagens/imagem2.png');
+   
+}
+main{
+    width: 500px;
+    background-image: linear-gradient(to right, rgb(255, 214, 214), rgb(102, 37, 37));
+    padding: 10%;
+    height: 300px;
+    margin: auto;
+
+}
+h1{
+    font-family: butcherman;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right,#172026, #027373);
+}
+
+main{
+    background-image: linear-gradient(to right,red, rgba(0, 0, 0, 0.719)) ;
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    margin:auto;
+    box-shadow: 10px 10px 15px #000505
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+    
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
